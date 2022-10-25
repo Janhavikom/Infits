@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infits</title>
+    <link rel="stylesheet" href="client_profile.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    
+  </head>
+
+  <body>
+
+    <!------------------------------------------------SIDENAV---------------------------------------------------------->
+    <div class="sidenav">
+        <img src = "images/logo.png">
+        <ul>
+            <li><a href="index2.html" class="active"><img src="images/vec_active_dashboard.png"> &nbsp&nbsp Dashboard</a></li>
+            <li><a href="#"><img src="images/vec_messages.png">&nbsp&nbsp Messages</a></li>
+            <li><a href="#"><img src="images/vec_live.png">&nbsp&nbsp Live</a></li>
+            <li><a href="#"><img src="images/vec_mail.png">&nbsp&nbsp Mail</a></li>
+            <li><a href="#"><img src="images/vec_recipies.png">&nbsp&nbsp Recipies</a></li>
+            <li><a href="#"><img src="images/vec_appointments.png">&nbsp&nbsp Appointments</a></li>
+            <li><a href="client_list.html"><img src="images/vec_client_list.png">&nbsp&nbsp Client List</a></li>
+        </ul>
+
+        <div class="bottom">
+            <ul>
+                <li><a href="#"><img src="images/vec_gethelp.png">&nbsp&nbsp Get Help</a></li>
+                <li><a href="#"><img src="images/vec_settings.png">&nbsp&nbsp Settings</a></li>
+                <li><a href="client_profile.html"><img src="images/vec_logout.png">&nbsp&nbsp Log Out</a></li>
+            </ul>
+        </div>
+      </div>
+
+ 
+
+      <!------------------------------------------------MAIN DIV---------------------------------------------------------->
+      <div class="main">
+        <div class = "vertical"></div>
+        <!----------------------------------------------HEADER----------------------------------------->
+        
+        <div class="header">
+          <div class="left">
+            <div class="name">
+            <p style="margin: 0; padding:0; font-size: 30px;">Good Morning, John Wayne
+            <br>
+            <p style="font-size:20px; margin: 0; padding:0;">Your performance summary this week.</p>
+          </div>
+          </div>
+          <div class="right">
+            <a href="#search"><img src="images/vec_search.png"></a>
+            <a href="#about"><img src="images/vec_notification.png"></a>
+            <a href="client_profile.html"><img src="images/pp.png" style="border-radius:50% ;"></a>
+            
+          </div>
+        </div>
+
+        <hr style="height: 1px;background-color:  #E8ECF5; border: none; width: 100%;">
+
+       <!------------------------------------------------MOBILE SIDEBAR----------------------------------------------------->
+       <div class="mobile-menu">
+        <div id="mySidenav" class="sidenavv">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#"><img src="images/vec_active_dashboard.png"> &nbsp&nbsp Dashboard</a>
+          <a href="#"><img src="images/vec_messages.png">&nbsp&nbsp Messages</a></a>
+          <a href="#"><img src="images/vec_live.png">&nbsp&nbsp Live</a>
+          <a href="#"><img src="images/vec_mail.png">&nbsp&nbsp Mail</a>
+          <a href="#"><img src="images/vec_recipies.png">&nbsp&nbsp Recipies</a>
+          <a href="#"><img src="images/vec_appointments.png">&nbsp&nbsp Appointments</a>
+          <a href="#"><img src="images/vec_client_list.png">&nbsp&nbsp Client List</a>
+          <a href="#"><img src="images/vec_gethelp.png">&nbsp&nbsp Get Help</a>
+          <a href="#"><img src="images/vec_settings.png">&nbsp&nbsp Settings</a>
+          <a href="#"><img src="images/vec_logout.png">&nbsp&nbsp Log Out</a>
+        </div>
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      
+      <!------------------------------------------------DASHBOARD--------------------------------------------------------->
+        <h1 style="font-size: 32px; color: #202224; font-weight: 600;">Client Profile</h1>
+
+      <!------------------------------------------------CALENDAR---------------------------------------------------------->
+
+      <div class="slider-wrap">
+        <div class="slider">
+            <div id="slider-inner">
+<!-- Content using javascript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="file1.js"></script>
+      <!-----------------------------------------------CARDS--------------------------------------------------------->
+        <div class="events">
+          <div class="container">
+
+            
+            <div class="card" style="z-index: -3; background: linear-gradient(208.27deg, rgba(255, 108, 108, 0.891) 40.23%, rgba(255, 92, 0, 0.468) 95.3%);
+            ;">
+            <div class="containerbackground">
+                <i class="fa-solid fa-shoe-prints icon1" style="rotate: -90deg;"></i>
+            </div>
+             <p class="title">Steps</p>
+             <p class="content">500 steps</p>
+             <p style="float: left;" class="goal">Goal</p>
+             <p style="float: right;" class="goal">1100 steps</p>
+            </div>
+
+            <div class="card" style="z-index: -3;background: linear-gradient(206.14deg, rgba(255, 96, 145, 0.81) 0%, rgba(81, 39, 221, 0.468) 145.34%);">
+                <div class="containerbackground">
+                    <i class="fa-solid fa-heart-pulse icon1"></i>
+                </div>
+                 <p class="title">Heart Rate</p>
+                 <p class="content">85 bmp</p>
+                 <p style="float: left;" class="goal"><i class="fa-solid fa-heart-pulse" style="font-size:35px"></i>
+                 </p>
+                 
+                    <div style="display:flex; flex-direction:column;float: right; font-size: 15px;" class="goal">
+                        <div><i class="fa-solid fa-arrow-up"></i>120 bpm</div>
+                        <div><i class="fa-solid fa-arrow-down"></i>72 bpm</div>
+                    </div>
+            </div>
+
+            <div class="card" style="z-index: -3;background: linear-gradient(208.27deg, rgba(39, 142, 255, 0.72) 41.57%, rgba(98, 113, 255, 0.416) 93.17%);">
+                <div class="containerbackground">
+                    <i class="fa-solid fa-droplet icon1"></i>
+                </div>
+                 <p class="title">Water</p>
+                 <p class="content">600 ml</p>
+                 <p style="float: left;" class="goal">Goal</p>
+                 <p style="float: right;" class="goal">1200ml</p>
+            </div>
+
+            <div class="card" style="z-index: -3;background: linear-gradient(237.6deg, rgba(78, 205, 196, 0.468) -24.24%, rgba(85, 98, 112, 0.81) 100%);">
+                <div class="containerbackground">
+                    <i class="fa-solid fa-weight-hanging icon1"></i>
+                </div>
+                 <p class="title">Weight Track</p>
+                 <p class="content">80 kg</p>
+                 <p style="float: left;" class="goal">Goal</p>
+                 <p style="float: right;" class="goal">120bpm</p>
+            </div>
+
+            <div class="card" style="z-index: -3;background: linear-gradient(208.27deg, rgba(69, 24, 219, 0.81) 30.7%, rgba(123, 41, 255, 0.468) 95.3%);">
+                <div class="containerbackground">
+                    <i class="fa-solid fa-moon icon1"></i>
+            </div>
+             <p class="title">Sleep</p>
+             <p class="content">7hr 35min</p>
+             <p style="float: left;" class="goal">Goal</p>
+             <p style="float: right;" class="goal">08 Hours</p>
+              </div>
+
+              <div class="card" style="z-index: -3;background: linear-gradient(61.08deg, rgba(221, 94, 137, 0.9) 0%, rgba(247, 187, 151, 0.52) 130.74%);">
+                <div class="containerbackground">
+                    <i class="fa-solid fa-stopwatch-20 icon1"></i>
+            </div>
+             <p class="title">Calories Track</p>
+             <p class="content">100 kcal</p>
+             <p style="float: left;" class="goal">Goal</p>
+             <p style="float: right;" class="goal">1100kcal</p>
+              </div>
+          </div>
+        </div>
+
+      
+
+      </div>
+        
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+  
+</body>
+</html>

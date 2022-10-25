@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAN</title>
+    <link rel="stylesheet" href="create_plan.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+    <!------------------------------------------------SIDENAV---------------------------------------------------------->
+    <div class="sidenav">
+        <img src = "images/logo.png">
+        <ul>
+            <li><a href="index2.html" class="active"><img src="images/vec_active_dashboard.png"> &nbsp&nbsp Dashboard</a></li>
+            <li><a href="#"><img src="images/vec_messages.png">&nbsp&nbsp Messages</a></li>
+            <li><a href="#"><img src="images/vec_live.png">&nbsp&nbsp Live</a></li>
+            <li><a href="#"><img src="images/vec_mail.png">&nbsp&nbsp Mail</a></li>
+            <li><a href="#"><img src="images/vec_recipies.png">&nbsp&nbsp Recipies</a></li>
+            <li><a href="#"><img src="images/vec_appointments.png">&nbsp&nbsp Appointments</a></li>
+            <li><a href="client_list.html"><img src="images/vec_client_list.png">&nbsp&nbsp Client List</a></li>
+        </ul>
+
+        <div class="bottom">
+            <ul>
+                <li><a href="#"><img src="images/vec_gethelp.png">&nbsp&nbsp Get Help</a></li>
+                <li><a href="#"><img src="images/vec_settings.png">&nbsp&nbsp Settings</a></li>
+                <li><a href="client_profile.html"><img src="images/vec_logout.png">&nbsp&nbsp Log Out</a></li>
+            </ul>
+        </div>
+      </div>
+
+ 
+
+      <!------------------------------------------------MAIN DIV---------------------------------------------------------->
+      <div class="main">
+        <div class = "vertical"></div>
+        <!----------------------------------------------HEADER----------------------------------------->
+        
+        <div class="header">
+          <div class="left">
+            <div class="name">
+            <p style="margin: 0; padding:0; font-size: 30px;color: black;"> Create Plan
+           </div>
+          </div>
+          <div class="right">
+            <a href="#search"><img src="images/vec_search.png"></a>
+            <a href="#about"><img src="images/vec_notification.png"></a>
+            <a href="client_profile.html"><img src="images/pp.png" style="border-radius:50% ;"></a>
+            
+          </div>
+        </div>
+
+        <hr style="height: 1px;background-color:  #E8ECF5; border: none; width: 100%;">
+
+       <!------------------------------------------------MOBILE SIDEBAR----------------------------------------------------->
+       <div class="mobile-menu">
+        <div id="mySidenav" class="sidenavv">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#"><img src="images/vec_active_dashboard.png"> &nbsp&nbsp Dashboard</a>
+          <a href="#"><img src="images/vec_messages.png">&nbsp&nbsp Messages</a></a>
+          <a href="#"><img src="images/vec_live.png">&nbsp&nbsp Live</a>
+          <a href="#"><img src="images/vec_mail.png">&nbsp&nbsp Mail</a>
+          <a href="#"><img src="images/vec_recipies.png">&nbsp&nbsp Recipies</a>
+          <a href="#"><img src="images/vec_appointments.png">&nbsp&nbsp Appointments</a>
+          <a href="#"><img src="images/vec_client_list.png">&nbsp&nbsp Client List</a>
+          <a href="#"><img src="images/vec_gethelp.png">&nbsp&nbsp Get Help</a>
+          <a href="#"><img src="images/vec_settings.png">&nbsp&nbsp Settings</a>
+          <a href="#"><img src="images/vec_logout.png">&nbsp&nbsp Log Out</a>
+        </div>
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      </div>
+      
+      <!-----------------------------------------------CARDS--------------------------------------------------------->
+      <div class="event-form">
+        <div class="add_icon">
+            <br>
+        <div class="add"><i class="fa-solid fa-plus"></i></div>
+        <p>You have not created any plan yet</p>
+        <br>
+        <p class="add_btn">Add Plan</p>
+    </div>
+    
+       </div>
+      
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+  
+</body>
+</html>
